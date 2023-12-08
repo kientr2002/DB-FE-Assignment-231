@@ -14,7 +14,7 @@ function Navbar() {
     return (
             <div id='Navbar' className='row align-items-center'>
                 <div className='icon-container'>
-                    <NavLink to="/" className="NavLink" style={style}>
+                    <NavLink to="/home" className="NavLink" style={style}>
                         <CiHome className='icon'></CiHome>
                     </NavLink>
                 </div>
